@@ -1,0 +1,113 @@
+h1 {
+  font-size: 4rem;
+}
+.center {
+  text-align: center;
+}
+
+.todo {
+  background: #E25041;
+  padding: 7.5px 10px 15px 10px;
+  margin-bottom: 10px;
+  border-radius: 7px;
+}
+
+.todo span, .todo span:hover {
+  color: #FFF;
+  border-bottom-color: #FFF;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.editable-input {
+  font-size: 0.7em;
+  background: transparent;
+  color: #FFF;
+}
+
+small {
+  margin-top: 15px;
+}
+
+.delete {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.done {
+  text-decoration: line-through;
+  opacity: 0.3;
+}
+
+#fw-link {
+  color: #E25041;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.add-btn:disabled, [type="submit"]:disabled, button:disabled {
+  background: #FFF;
+  border: 1px #E25041 solid;
+  color: #E25041;
+  opacity: 0.8;
+  cursor: not-allowed;
+}
+
+.add-btn {
+  background: #E25041;
+  transition:0.3s linear all;
+  color: #FFF;
+}
+
+.ng-enter {
+  -webkit-transition: 1s cubic-bezier(0.420, 0.000, 1.000, 1.000) all;
+  -moz-transition: 1s cubic-bezier(0.420, 0.000, 1.000, 1.000) all;
+  -ms-transition: 1s cubic-bezier(0.420, 0.000, 1.000, 1.000) all;
+  -o-transition: 1s cubic-bezier(0.420, 0.000, 1.000, 1.000) all;
+  transition: 1s cubic-bezier(0.420, 0.000, 1.000, 1.000) all;
+  opacity:0;
+}
+
+.ng-enter.ng-enter-active {
+  opacity:1;
+}
+
+.ng-leave {
+  -webkit-transition: 0.5s linear all;
+  -moz-transition: 0.5s linear all;
+  -ms-transition: 0.5s linear all;
+  -o-transition: 0.5s linear all;
+  transition:0.5s linear all;
+  opacity:1;
+}
+
+.ng-leave.ng-leave-active {
+  opacity:0;
+}
+
+.ng-hide-add {
+  webkit-transition: 0.5s linear all;
+  -moz-transition: 0.5s linear all;
+  -ms-transition: 0.5s linear all;
+  -o-transition: 0.5s linear all;
+  transition:0.5s linear all;
+  opacity:1;
+}
+
+.ng-hide-add.ng-hide-add-active {
+  opacity:0;
+}
+
+.ng-hide-remove {
+  transform: rotateX(90deg);
+  transform-origin: top;
+  transition: all 1.25s ease;
+}
+
+.ng-hide-remove.ng-hide-remove-active {
+  transform: rotateY(0);
+}
+
+#credit {
+  font-size: 11px; 
+}
