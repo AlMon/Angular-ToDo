@@ -39,11 +39,7 @@ small {
   opacity: 0.3;
 }
 
-ul {
-  list-style: none !important;
-}
-
-#fw-link {
+.project-link {
   color: #E25041;
   font-weight: 700;
   text-decoration: none;
